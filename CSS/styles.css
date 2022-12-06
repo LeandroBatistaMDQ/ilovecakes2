@@ -1,0 +1,197 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* logo */
+.logo{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagen-logo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    filter: drop-shadow(1px 1px 1px);
+    
+}
+ 
+
+header{
+    background-color: rgb(241, 241, 170);
+}
+
+header nav a{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.body-color{
+    background-color: rgb(241, 241, 170);
+}
+
+/* fuente */
+
+.body-color{
+    font-family: 'Noto Sans', sans-serif;}
+
+.navbar{
+    background-color: pink;
+    
+}
+
+.navbar-brand{
+    margin-bottom: 2rem;
+}
+
+/* estilos del padre*/
+
+.padre{
+    font-family: 'Noto Sans', sans-serif;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.padre a{
+    text-decoration: none;
+    color: #000000;
+    
+    
+}
+/* estilos de los hijos */
+.hijo{
+    text-align: center;
+    width: 161px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px black;
+    
+}
+
+nav div .hijo{
+    text-decoration: none;
+    background-color: rgb(241, 241, 170);
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+main{
+    background-color: rgb(241, 241, 170);
+}
+/* animaciones de los botones del menu */
+
+
+main nav div a:hover{
+    background-color: pink;
+    font-weight: bold;
+    transform: scale(1.2);
+    color: blueviolet;
+}
+
+header nav div a:hover{
+    background-color: pink;
+    font-weight: bold;
+    transform: scale(1.2);
+    color: blueviolet;
+}
+
+body nav div a:hover{
+    background-color: pink;
+    font-weight: bold;
+    transform: scale(1.2);
+    color: blueviolet;
+}
+
+/* carrusel */
+
+.carousel{
+    width: 30%;
+    height: 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-items: center;
+    background-color: rgb(241, 241, 170);
+}
+
+/* sobre nosotros */
+.encabezado{
+    text-align: left;
+}
+
+.container-main{
+    display: flex;
+    height: calc(100vh -88 -39);
+}
+
+
+
+.about-us{
+    grid-template-areas: 
+    "header header"
+    "img texto"
+    "footer footer"
+    
+}
+
+.about-us p{
+    grid-area: "texto";  
+    margin-top: 2rem;
+}
+
+.container-img{
+    display: grid;
+    height: 300px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-area: "img";
+    
+}
+
+.piecito{
+    background-color: pink;
+}
+
+/* productos */
+
+.cartas-productos{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+
+}
+
+.h1-color{
+    background-color: pink;
+    margin-top: 1rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container-fluid{
+    background-color: pink;
+}
+
+.row{ 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    column-gap: 2rem;
+}
+
+/* animaciones del footer */
+footer div img:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+    box-shadow: 1px 1px 2px black;
+}
+
+/* mq */
+@media (min-height: 680px), screen and (max-height: 1200px) {
+    
+}
